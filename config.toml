@@ -1,0 +1,131 @@
+# Site settings
+baseurl = "https://semieye.github.io/"
+languageCode = "zh-CN"
+#DefaultContentLanguage = "zh"
+HasCJKLanguage = true
+
+title = "Nothing lasts forever"
+theme = "beautifulhugo"
+
+#metaDataFormat = "yaml"
+pygmentsStyle = "monokai"
+pygmentsUseClassic = true
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentOptions = "linenos=table"
+#disqusShortname = "semieye"
+#googleAnalytics = ""
+
+enableRobotsTXT = true
+enableEmoji = true
+hrefTargetBlank = true
+
+[sitemap] 
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[permalinks]
+  # Optional. Change the permalink format for the 'post' content type.
+  # The format shown here is the same one Jekyll/Octopress uses by default.
+#  post = "/blog/:year/:month/:day/:title/"
+#  post = "/blog/:year/:month/:day/:filename/"
+
+[Params]
+  subtitle = "Developer * Programmer * Gogher"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+#  dateFormat = "January 2, 2006"
+  dateFormat = "Mon, 02 Jan 2006 15:04:05 MST"
+#  commit = false
+#  rss = true
+#  comments = true
+  readingTime = true
+#  useHLJS = true # highlightjs for client syntax highlight
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[[Params.bigimg]]
+  src = "img/path.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "semieye"
+  website = "https://semieye.github.io/"
+  email = "semieye@qq.com"
+#  facebook = ""
+#  googleplus = "" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "semieye"
+#  gitlab = "username"
+#  twitter = ""
+#  reddit = "username"
+#  linkedin = "username"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  instagram = ""
+#  youtube = "" # or channel/channelname
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+#  vk = "username"
+#  paypal = "username"
+#  telegram = "username"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Archives"
+    url = "/post"
+    identifier = "archives"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 5
+
+#[[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 4
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
