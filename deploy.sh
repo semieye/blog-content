@@ -22,3 +22,10 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
+# Push content source for backup.
+git add .
+git commit -m "$msg"
+git push origin master
+
+
